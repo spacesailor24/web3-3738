@@ -7,3 +7,11 @@ You'll notice that `web3.js` is installed via local path (in `package.json`):
 ```
 
 This is because I pulled the `release/1.3.1` branch from web3.js repo and built the library to test if this issue was persistent in the release candidate
+
+## Running this Example Yourself
+
+1. `git clone git@github.com:spacesailor24/web3-3738.git`
+2. `npm install`
+3. `npx truffle compile`
+4. `npx truffle migrate` (require a ganache instance to be running on `127.0.0.1:8545`)
+5. `npx truffle test`
